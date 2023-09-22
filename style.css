@@ -13,6 +13,24 @@ html, body {
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
 }
+/* input{
+    text-decoration: none;
+    background: rgb(221, 220, 220);
+    width: 100%;
+    text-decoration: none;
+    padding: 6px;
+    margin: 6px;
+    text-align: left;
+    border: none;
+}
+input:hover{
+    background: #333;
+    color: white;
+}
+input:focus{
+    border: none;
+    text-decoration: none;
+} */
 .hide{
     display: none;
 }
@@ -20,13 +38,17 @@ html, body {
     display: flex;
 }
 .options{
-    background-color: rgb(148, 140, 148);
+    background: rgb(221, 220, 220);
     width: 700px;
     border-radius: 10px;
+    margin: 5px 0;
     padding: 4px 0;
+    color: black;
+    font-size: larger;
 }
 .options:hover{
-    background-color: rgb(187, 180, 187);
+    background: #333;
+    color: white;
     cursor: pointer;
 }
 .mcq{
@@ -36,6 +58,48 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color:#00000090;
+}
+.teams{
+    background: rgb(221, 220, 220);
+    width: 100px;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 4px 0;
+    color: black;
+    font-size: larger;
+}
+.select{
+    background-color: white;
+    padding: 2px 100px;
+    gap: 15px;
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.teams:hover{
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+.te{
+    color: white;
+}
+.team{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    z-index: 50;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .line{
     width: 80%;
@@ -47,7 +111,7 @@ html, body {
     z-index: 20;
     padding: 2px 100px;
     width: 50%;
-    height: 70%;
+    height: 80%;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -76,7 +140,7 @@ html, body {
 }
 input, select {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: rgba(0, 0, 0);
     height: 45px;
     width: 150px;
     padding: 10px;
@@ -119,7 +183,7 @@ input:focus, select:focus {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: rgba(0, 0, 0, 0.70);
     z-index: 1;
 }
 #Message-Container #message {
