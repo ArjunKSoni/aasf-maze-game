@@ -13,6 +13,49 @@ html, body {
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
 }
+.hide{
+    display: none;
+}
+.flex{
+    display: flex;
+}
+.options{
+    background-color: rgb(148, 140, 148);
+    width: 700px;
+    border-radius: 10px;
+    padding: 4px 0;
+}
+.options:hover{
+    background-color: rgb(187, 180, 187);
+    cursor: pointer;
+}
+.mcq{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color:#00000090;
+}
+.line{
+    width: 80%;
+    height: 5px;
+    background-color: black;
+}
+.mcqQues{
+    background-color: white;
+    z-index: 20;
+    padding: 2px 100px;
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
 
 #view {
     margin-top: 30px;

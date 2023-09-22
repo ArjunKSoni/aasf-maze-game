@@ -16,8 +16,18 @@
         <h1>Congratulations!</h1>
         <p>You are done.</p>
         <p id="moves"></p>
-        <p>coordinates </p>
         <input id="okBtn" type="button" onclick="toggleVisablity('Message-Container')" value="Cool!" />
+      </div>
+    </div>
+
+    <div class="mcq hide">
+      <div class="mcqQues">
+        <h1 id="question">Question</h1>
+        <div class="line"></div>
+        <h3 class="options" id="option1">options</h3>
+        <h3 class="options" id="option2">options</h3>
+        <h3 class="options" id="option3">options</h3>
+        <h3 class="options" id="option4">options</h3>
       </div>
     </div>
 
@@ -25,7 +35,7 @@
     <div id="menu">
       <div class="custom-select">
         <select id="diffSelect">
-                  <option value="20">AASF</option>                                    
+          <option value="20">AASF</option>                                    
         </select>
       </div>
       <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Start" />
